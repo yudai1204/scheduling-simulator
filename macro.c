@@ -29,7 +29,7 @@ void initTasks(TASK *task_array,int task_num){
         task_array[i].start =
         task_array[i].end =
         task_array[i].response = 
-        task_array[i].processing = -1;
+        task_array[i].processing = 
         task_array[i].processed = 0;
         strcpy( task_array[i].name, "undefined" );
     }
